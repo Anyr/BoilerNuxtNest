@@ -21,8 +21,7 @@ import { AuthModule } from './auth/auth.module';
     }),
     TypeOrmModule.forRoot({
       type: 'mongodb',
-      url:
-        'mongodb://application:JSFWB5SbRkLBrQEJ@ot1-shard-00-00.0xd3a.mongodb.net:27017,ot1-shard-00-01.0xd3a.mongodb.net:27017,ot1-shard-00-02.0xd3a.mongodb.net:27017/ot1?ssl=true&replicaSet=atlas-1p9ulk-shard-0&authSource=admin&retryWrites=true&w=majority',
+      url: 'change uri here'
       useNewUrlParser: true,
       synchronize: true,
       logging: true,
